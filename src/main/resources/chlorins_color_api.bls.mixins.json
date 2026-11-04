@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.chlorins.colorapi.mixin.bls",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "DownloadingTerrainScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "refmap": "chlorins-color-api-refmap.json"
+}

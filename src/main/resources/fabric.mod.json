@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "chlorins_color_api",
+  "version": "${version}",
+  "name": "Chlorins Color API",
+  "description": "Hex colour markers and smooth RGB gradients for language files, item names and tooltips. Client side only.",
+  "authors": [
+    "Chlorins"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.chlorins.colorapi.ChlorinsColorApi"
+    ]
+  },
+  "mixins": [
+    "chlorins_color_api.mixins.json",
+    "chlorins_color_api.optional.mixins.json",
+    "chlorins_color_api.modernui.mixins.json",
+    "chlorins_color_api.bls.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

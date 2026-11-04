@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.chlorins.colorapi.mixin.modernui",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ModernUITextMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "refmap": "chlorins-color-api-refmap.json"
+}
